@@ -1,4 +1,5 @@
 package BinarySearch;
+// Here We are Going TO Search an Element in Nearley Sorted Array;
 
 public class Numeical4 {
     static int Sorted(int arr[],int Start,int End,int Ele){
