@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Numerical6 {
+public class FindCiel {
     public static char FindCielChar(String str,int Start,int End,char s){
        char res = '\0';
         while(Start<=End){

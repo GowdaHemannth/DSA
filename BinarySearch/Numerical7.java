@@ -1,8 +1,8 @@
 package BinarySearch;
 
-public class Numerical5 {
-     // Finding The Floor and The Ceil of the Given Sorted Array
-     static int  Floor(int arr[],int Start,int End,int Ele){
+public class Numerical7 {
+    // Here we are Going to Find the MMInimum Differnce Between the elements in Soreted Array 
+    static int  Floor(int arr[],int Start,int End,int Ele){
         int res=-1;
         while(Start<=End){
          
@@ -49,18 +49,22 @@ public class Numerical5 {
    }
 
 
-   
-
-     public static void main(String []args){
-        int arr[]={1,2,3,4,6,10,12,19};
+    public static void main (String args[]){
+        int arr[]={1,2,3,4,6,10,11,13};
         int Start=0;
         int End=arr.length-1;
         int Ele=7;
-   Floor(arr, Start, End, Ele) ;
+        int C= Math.abs(Floor(arr, Start, End, Ele)-Ele) ;
 
-   
-       
+        int H=Math.abs(-Ciel(arr, Start, End, Ele)-Ele);
+      
+        if(C>H){
+          System.out.println(H);
+      
+        }else{
+          System.out.println(C);
 
-     }
+    }
     
+    }
 }
