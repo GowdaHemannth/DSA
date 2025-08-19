@@ -27,7 +27,7 @@ public static boolean isIdentical(Node node,Node Subroot){
 
 
     }
-    if(!isIdentical(node.Left, Subroot.Right)){
+    if(!isIdentical(node.Left, Subroot.Left)){
         return false;
     }
    if(!isIdentical(node.Right, Subroot.Right)){

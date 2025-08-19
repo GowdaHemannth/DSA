@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.Stack;
 
-public class Example1 {
+public class Implementation {
     public static void Function(Stack<Integer>s,int target){
         if(s.size()==0){
             s.push(target);

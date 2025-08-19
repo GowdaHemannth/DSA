@@ -1,7 +1,8 @@
 package Stack;
 import java.util.*;
 
-public class stack1 {
+// Creating Stack using the Linked List 
+public class implemenation1 {
     // Defining the Linked List
      static class Node{
         int data;

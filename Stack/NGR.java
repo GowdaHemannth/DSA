@@ -2,7 +2,7 @@ package Stack;
 import java.util.*;
 import java.util.ArrayList;
 
-public class Example2 {
+public class NGR {
     // Question number 2 next largest Element Nearest to get to the right
     public static void Function(int arr[], Stack<Integer>s,ArrayList<Integer>a){
         int n=arr.length;
@@ -27,6 +27,7 @@ public class Example2 {
 
                 }
             }
+            // Here these is the MAin Step  Not just For the Inital Steps for So many of them
             s.push(arr[i]);
         }
         Collections.reverse(a);

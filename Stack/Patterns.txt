@@ -1,0 +1,3 @@
+how we have NGR like " NGL" like smaller elemsnt for the Right Side of the Given Array 
+
+Then we Can have NSL , NSR

@@ -1,6 +1,6 @@
 package Stack;
 import java.util.ArrayList;
-public class stack {
+public class Implementtation {
     static  class Stack{
       static ArrayList<Integer>list=new ArrayList<>();
       // 1st Function isEmpty Function 

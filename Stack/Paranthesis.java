@@ -2,7 +2,7 @@ package Stack;
 
 import java.util.Stack;
 
-public class ValidString {
+public class Paranthesis {
     public static boolean Function(String str){
         Stack<Character>s=new Stack<>();
          // step 1 checking for the oprning brackets
