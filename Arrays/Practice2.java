@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.HashSet;
+
 public class Practice2 {
     public static boolean Function(int arr[]){
         for(int i=0;i<arr.length-1;i++){
@@ -13,5 +15,8 @@ public class Practice2 {
         int arr[]={2,4,6,8,10};
        boolean result= Function(arr);
        System.out.println(result);
+       HashSet<Integer>Has=new HashSet();
+     
      }   
 }
+

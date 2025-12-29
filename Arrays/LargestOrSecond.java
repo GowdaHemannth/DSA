@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Practice {
+public class LargestOrSecond {
     public static void Function(int arr[]){
         int Max=Integer.MIN_VALUE;
         for( int i=0;i<arr.length;i++){

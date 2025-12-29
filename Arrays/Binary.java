@@ -1,5 +1,6 @@
 package Arrays;
 
+// Revised 
 public class Binary {
     public static int BinarySearch(int numbers[],int key){
         int start=0; 
