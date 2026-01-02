@@ -27,6 +27,8 @@ public class implemenation1 {
                 return;
 
             }
+            // Here many us will Confused Becuase 
+            //Think Here we are Creating A Stack USing LinkedList Every Emeant Should At top 
             newNode.next=Head;
             Head=newNode;
         }

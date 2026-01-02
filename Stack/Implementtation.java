@@ -1,4 +1,5 @@
 package Stack;
+// Implamnting using Arraylist
 import java.util.ArrayList;
 public class Implementtation {
     static  class Stack{

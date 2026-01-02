@@ -1,5 +1,7 @@
 package Stack;
 
+// Here Implementing Stak by using its Function by 
+// Java Collection FrameWork
 import java.util.Stack;
 
 public class Implementation {

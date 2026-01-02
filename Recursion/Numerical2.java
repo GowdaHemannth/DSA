@@ -1,14 +1,15 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Function;;
 
 public class Numerical2 {
     public static void Fucntion(int idx, String s, StringBuilder Current, List<String> lis) {
         if (idx == s.length()) {
-            lis.add(Current);
+            list.add(Current);
             return;
         }
 
-        Function(idx + 1, s, Current, lis);
+        Fucntion(idx + 1, s, Current, lis);
 
         Current.append(s.charAt(idx));
         Fucntion(+1, s, Current, lis);
