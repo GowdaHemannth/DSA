@@ -1,0 +1,11 @@
+Here we will be getting Some Points Here that rae Actully solve Numericals 
+first one is fincding the Element in the Infinite from the infinite loop 
+* first take first element has START then take SECOND ELEEMNT HAS END 
+NOW CHECK WHTHER THE GIVEN KEY IS GRERTER THAN END IF YES 
+THEN END=END*2 AND START=END 
+AT SOME POINT WE WILL GET THAT ARR[KEY] IS LESS THAN ARR[END] NOW THATS THE POINT THEN AND THERE PERFROM THE 
+THEN AND THIER PERFORM THE Binary Search 
+
+### Here comes the Second question where i need to find the first index of 1 IN BINARY SORTED ARRAY HERE DO YOU GET WHAT I MEAN BY binary sorted that means only 0 and 
+ Here simple technique is Just find first occurance
+   for these first floow above Numerical Solution then apply Fisrt Occurance Function 

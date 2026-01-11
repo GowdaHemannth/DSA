@@ -1,7 +1,9 @@
 package BinarySearch;
 // Here We are Going TO Search an Element in Nearley Sorted Array;
+// Here nearly Sorted Array Menas if I is the Key 
+// Then we can find that i element in i,i+1,i-1
 
-public class Numeical4 {
+public class NearlySorted {
     static int Sorted(int arr[],int Start,int End,int Ele){
         while(Start<=End){
             int mid=(Start+End)/2;

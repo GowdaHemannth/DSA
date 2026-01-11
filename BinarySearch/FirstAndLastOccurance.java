@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class First {
+public class FirstAndLastOccurance {
     static int Occurance(int arr[],int Ele,int Start,int End,int res){
         
         while(Start<=End){

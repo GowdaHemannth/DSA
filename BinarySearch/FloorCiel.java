@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Numerical5 {
+public class FloorCiel {
      // Finding The Floor and The Ceil of the Given Sorted Array
      static int  Floor(int arr[],int Start,int End,int Ele){
         int res=-1;

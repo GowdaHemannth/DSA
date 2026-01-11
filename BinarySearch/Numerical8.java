@@ -1,5 +1,8 @@
 package BinarySearch;
 
+
+// Previously we have Learnt Concept where we can Actually apply the Concept Here that 
+// we can Apply THE Binary Search on Un-sorted ARRAY aSWELL
 public class Numerical8 {
     static int Peek(int arr[],int Start,int End){
         while(Start<=End){

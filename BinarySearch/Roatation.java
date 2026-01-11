@@ -1,7 +1,8 @@
 package BinarySearch;
 
-public class Numerical3 {
+public class Roatation {
     // Function to count array rotations
+    //  To find the Number of rotation find the minimum Elements index
     static int Rotation(int arr[], int Start, int End) {
         int n = arr.length;
         

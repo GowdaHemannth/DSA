@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class FindCiel {
+public class NextAlphabet {
     public static char FindCielChar(String str,int Start,int End,char s){
        char res = '\0';
         while(Start<=End){
