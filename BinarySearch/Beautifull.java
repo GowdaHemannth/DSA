@@ -21,6 +21,7 @@ public class Beautifull{
            totalhors += (int) Math.ceil((double) arr[i] / mid);
 
         }
+        return totalhors;
     }
 
     public static void main(String[] args) {
@@ -39,6 +40,9 @@ public class Beautifull{
                 low=mid+1;
             }
         }
+
+        //   Whn thisBreaks Low will be Answers
+        
         
     }
 }

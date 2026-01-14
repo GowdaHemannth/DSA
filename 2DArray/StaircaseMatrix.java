@@ -1,7 +1,7 @@
 public class StaircaseMatrix {
     public static Boolean Function(int matrix[][], int key){
         int row=0; int column=matrix[0].length-1;
-        while(row<matrix.length&& column>=0){
+        while(row<matrix.length&& row>0 && column>=0 && column<matrix[0].length){
             if(key==matrix[row][column]){
                 System.out.print("(" + row + " " + column + ")");
 

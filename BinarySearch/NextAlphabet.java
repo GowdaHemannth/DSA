@@ -1,5 +1,7 @@
 package BinarySearch;
+  
 
+// hERE WE WILL BE  gIVEN sTRING IN sORTED ORDER THEN E NEED TO fIND THE nEXT aLPHABETICAL PRESENT tHEIR 
 public class NextAlphabet {
     public static char FindCielChar(String str,int Start,int End,char s){
        char res = '\0';
